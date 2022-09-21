@@ -1,11 +1,24 @@
+// const trees = "Aspen and Pine";
+
+// function wildlife() {
+//   console.log("Elk, Bighorn Sheep, Moose");
+// }
+
+// function elevation() {
+//   console.log("9583 ft");
+// }
+
+// export { trees, wildlife };
+
 const trees = "Aspen and Pine";
 
-function wildlife() {
-  console.log("Elk, Bighorn Sheep, Moose");
+function wildlife(){
+  console.log("Elk,Bughorn Sheep, Moose");
 }
 
-function elevation() {
+function elevation(){
   console.log("9583 ft");
 }
 
-export { trees, wildlife };
+//named export syntax: 
+export {trees, wildlife};
